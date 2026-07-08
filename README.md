@@ -17,8 +17,8 @@
 <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20AVAILABLE%20FOR-Freelance%20%C2%B7%20Contract%20%C2%B7%20Full--Time-1e1b4b?style=for-the-badge&labelColor=0f172a" alt="availability"/>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/YOUR-GITHUB-USERNAME?label=Followers&style=flat-square&color=6366f1" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=donnycee-rgb&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/donnycee-rgb?label=Followers&style=flat-square&color=6366f1" alt="followers"/>
 </p>
 
 </div>
@@ -152,16 +152,16 @@ Bridging the gap between data and design — seamless auth flows, real-time feat
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=donnycee-rgb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=donnycee-rgb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=donnycee-rgb&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366f1&line=6366f1&point=ffffff" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=donnycee-rgb&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366f1&line=6366f1&point=ffffff" alt="Activity Graph" width="100%"/>
 
 </div>
 
@@ -187,7 +187,7 @@ I'm actively taking on new projects — reach out and let's talk about how I can
 <a href="https://your-portfolio-site.com" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-1e1b4b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
-<a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank">
+<a href="https://github.com/donnycee-rgb" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-1e1b4b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 </p>
