@@ -178,13 +178,13 @@ Bridging the gap between data and design — seamless auth flows, real-time feat
 I'm actively taking on new projects — reach out and let's talk about how I can help build your product.
 
 <p>
-<a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
+<a href="https://www.linkedin.com/in/dennis-mwendia-90b28331a/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-1e1b4b?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/>
 </a>
-<a href="mailto:YOUR-EMAIL@example.com">
+<a href="mailto:dmwendia30@gmail.com">
   <img src="https://img.shields.io/badge/Email-1e1b4b?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/>
 </a>
-<a href="https://your-portfolio-site.com" target="_blank">
+<a href="https://unrivaled-pony-e15d4c.netlify.app/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-1e1b4b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="https://github.com/donnycee-rgb" target="_blank">
