@@ -1,100 +1,57 @@
 <div align="center">
 
-<!-- ============================================================
-     HEADER ZONE
-     ============================================================ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=200&section=header&text=Dennis%20Cira&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Software%20Developer&descAlignY=58&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d0d0d,100:1a1613&height=140&section=header&text=Dennis%20Cira&fontSize=44&fontColor=e7e4de&fontAlignY=55&desc=Full-Stack%20Developer%20%C2%B7%20Samsung%20Innovation%20Campus&descAlignY=78&descSize=15&descAlign=50&animation=fadeIn" width="100%"/>
 
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=900&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=90&lines=Hi%2C+I'm+Dennis+Cira+%F0%9F%91%8B;Full-Stack+Web+Developer;Ready+for+Hire+%F0%9F%9A%80;Building+Scalable+Digital+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=1000&color=D97A3F&center=true&vCenter=true&width=600&lines=Builder+of+Nexus+and+LivoraPulse;Full-Stack+Developer;Currently+at+Samsung+Innovation+Campus;Runs+on+coffee+and+stubbornness" alt="Typing SVG"/>
 </a>
 
-<br/><br/>
+<br/>
 
-<img src="https://img.shields.io/badge/%F0%9F%9F%A2%20AVAILABLE%20FOR-Freelance%20%C2%B7%20Contract%20%C2%B7%20Full--Time-1e1b4b?style=for-the-badge&labelColor=0f172a" alt="availability"/>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=donnycee-rgb&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/donnycee-rgb?label=Followers&style=flat-square&color=6366f1" alt="followers"/>
-</p>
+<img src="https://img.shields.io/badge/STATUS-Open%20to%20Work-1a1613?style=for-the-badge&labelColor=0d0d0d&color=D97A3F"/>
 
 </div>
 
 <br/>
 
-<!-- ============================================================
-     ABOUT ME
-     ============================================================ -->
+## About
 
-## 🧑‍💻 About Me
+I'm a Computer Science student at JKUAT and a full-stack developer who likes finishing what I start. I build things end to end — backend architecture, database schemas, and the frontend that sits on top of it — and I'd rather ship something a little rough than polish something that never leaves my laptop.
 
-<table align="center">
-<tr>
-<td width="60%" valign="top">
+Right now I'm part of the **Samsung Innovation Campus** program, and outside of coursework I build production-shaped side projects: a SaaS platform for a social media manager, and a student wellness platform I'm rebuilding from scratch for a health-innovation residency application.
 
-I'm a **Full-Stack Software Developer** who thrives at the intersection of **robust backend architecture** and **pixel-perfect frontend craftsmanship**. I build products end-to-end — from designing scalable APIs and database schemas to shipping fast, responsive, delightful user interfaces.
-
-I care about clean code, thoughtful architecture, and the kind of user experience that just *feels right*. Whether it's a fresh MVP or scaling an existing product, I bring precision, speed, and a product-first mindset to every line of code.
-
-**I'm currently open to freelance projects, contract work, and full-time opportunities.** Let's build something great together.
-
-</td>
-<td width="40%" valign="top">
-
-```yaml
-Developer:
-  name: "Dennis Cira"
-  role: "Full-Stack Software Developer"
-  focus: "Scalable Web Applications"
-  philosophy: "Simple. Fast. Reliable."
-  availability: "Open to Work ✅"
-  location: "Remote / Worldwide 🌍"
-  fun_fact: "I debug in production... 
-              just kidding. Mostly."
-```
-
-</td>
-</tr>
-</table>
+I care about code that's easy to come back to six months later, and about not over-engineering things that don't need it yet.
 
 <br/>
 
-<!-- ============================================================
-     SERVICES OFFERED
-     ============================================================ -->
-
-## 🛠️ Services Offered
+## Projects
 
 <table width="100%">
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### 🎨 Frontend Engineering
+**Nexus**
+Social media management SaaS, built for a client who manages social accounts professionally.
 
-Crafting responsive, interactive, and high-performance user interfaces with modern frameworks, clean component architecture, and obsessive attention to detail.
+Built the workspace and team system from the ground up: invite links that are cryptographically signed and single-use, role and permission middleware guarding every route, and a media upload pipeline with a storage adapter that isn't locked to one provider. Instagram OAuth is next.
 
-`React` `Next.js` `TypeScript` `Tailwind`
+`React` `TypeScript` `Node.js` `Prisma` `PostgreSQL` `Redis`
 
-</td>
-<td width="33%" align="center" valign="top">
-
-### ⚙️ Backend Architecture
-
-Designing secure REST/GraphQL APIs, efficient database schemas, and scalable server-side logic built for performance and long-term maintainability.
-
-`Node.js` `Express` `PostgreSQL` `REST/GraphQL`
+[Frontend](https://github.com/donnycee-rgb/nexus) · [Backend](https://github.com/donnycee-rgb/nexusbackend)
 
 </td>
-<td width="33%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### 🔗 Full-Stack Integration
+**LivoraPulse**
+Started as a general wellness platform, now being rebuilt into a burnout-intelligence system for Kenyan university students.
 
-Bridging the gap between data and design — seamless auth flows, real-time features, CI/CD pipelines, and cloud deployment done right.
+Repositioning it around an admin dashboard institutions can actually pay for, plus a peer-accountability feature called Wellness Circles. Currently building toward an application to AfyaVentures 2026, a health-innovation residency run by AMREF.
 
-`Docker` `AWS` `CI/CD` `WebSockets`
+`Node.js` `TypeScript` `Prisma` `PostgreSQL` `Redis`
+
+[Frontend](https://github.com/donnycee-rgb/livorapulse) · [Backend](https://github.com/donnycee-rgb/livorapulse_backend)
 
 </td>
 </tr>
@@ -102,98 +59,79 @@ Bridging the gap between data and design — seamless auth flows, real-time feat
 
 <br/>
 
-<!-- ============================================================
-     TECH STACK
-     ============================================================ -->
-
-## 🧰 Tech Stack
+## Stack
 
 <div align="center">
 
 **Frontend**
 <p>
-<img src="https://img.shields.io/badge/React-15161A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Next.js-15161A?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/TypeScript-15161A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/JavaScript-15161A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-15161A?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC" alt="Tailwind"/>
-<img src="https://img.shields.io/badge/Redux-15161A?style=for-the-badge&logo=redux&logoColor=764ABC" alt="Redux"/>
+<img src="https://img.shields.io/badge/React-0d0d0d?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/TypeScript-0d0d0d?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-0d0d0d?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC"/>
+<img src="https://img.shields.io/badge/Next.js-0d0d0d?style=for-the-badge&logo=nextdotjs&logoColor=e7e4de"/>
 </p>
 
 **Backend**
 <p>
-<img src="https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js"/>
-<img src="https://img.shields.io/badge/Express-0f172a?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-<img src="https://img.shields.io/badge/NestJS-0f172a?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="NestJS"/>
-<img src="https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
-<img src="https://img.shields.io/badge/GraphQL-0f172a?style=for-the-badge&logo=graphql&logoColor=E10098" alt="GraphQL"/>
+<img src="https://img.shields.io/badge/Node.js-1a1613?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
+<img src="https://img.shields.io/badge/Express-1a1613?style=for-the-badge&logo=express&logoColor=e7e4de"/>
+<img src="https://img.shields.io/badge/Python-1a1613?style=for-the-badge&logo=python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/FastAPI-1a1613?style=for-the-badge&logo=fastapi&logoColor=009688"/>
 </p>
 
-**Databases, ORMs & DevOps**
+**Data & Tools**
 <p>
-<img src="https://img.shields.io/badge/PostgreSQL-1e1b4b?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/MongoDB-1e1b4b?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/Prisma-1e1b4b?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
-<img src="https://img.shields.io/badge/Redis-1e1b4b?style=for-the-badge&logo=redis&logoColor=DC382D" alt="Redis"/>
-<img src="https://img.shields.io/badge/Docker-1e1b4b?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"/>
-<img src="https://img.shields.io/badge/AWS-1e1b4b?style=for-the-badge&logo=amazonaws&logoColor=FF9900" alt="AWS"/>
-<img src="https://img.shields.io/badge/Git-1e1b4b?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
+<img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
+<img src="https://img.shields.io/badge/Prisma-0d0d0d?style=for-the-badge&logo=prisma&logoColor=e7e4de"/>
+<img src="https://img.shields.io/badge/Redis-0d0d0d?style=for-the-badge&logo=redis&logoColor=DC382D"/>
+<img src="https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=2496ED"/>
+<img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=F05032"/>
 </p>
 
 </div>
 
 <br/>
 
-<!-- ============================================================
-     LIVE GITHUB METRICS
-     ============================================================ -->
-
-## 📈 Live GitHub Metrics
+## GitHub Activity
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=donnycee-rgb&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&count_private=true" alt="GitHub Stats"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=donnycee-rgb&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=donnycee-rgb&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=donnycee-rgb&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=D97A3F&icon_color=D97A3F&text_color=e7e4de&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=donnycee-rgb&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=D97A3F&text_color=e7e4de&langs_count=8"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=donnycee-rgb&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366f1&line=6366f1&point=ffffff" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=donnycee-rgb&hide_border=true&background=0D0D0D&ring=D97A3F&fire=D97A3F&currStreakLabel=D97A3F&sideLabels=e7e4de&currStreakNum=e7e4de&sideNums=e7e4de&dates=8a8680"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/donnycee-rgb/donnycee-rgb/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
 
 <br/>
 
-<!-- ============================================================
-     LET'S CONNECT
-     ============================================================ -->
-
-## 📫 Let's Connect
+## Get in Touch
 
 <div align="center">
 
-I'm actively taking on new projects — reach out and let's talk about how I can help build your product.
+I'm taking on freelance and contract work, and open to full-time roles once I'm done with school.
 
 <p>
 <a href="https://www.linkedin.com/in/dennis-mwendia-90b28331a/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-1e1b4b?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-1a1613?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
 </a>
 <a href="mailto:dmwendia30@gmail.com">
-  <img src="https://img.shields.io/badge/Email-1e1b4b?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-1a1613?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
 <a href="https://unrivaled-pony-e15d4c.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-1e1b4b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-1a1613?style=for-the-badge&logo=vercel&logoColor=e7e4de"/>
 </a>
 <a href="https://github.com/donnycee-rgb" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-1e1b4b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-1a1613?style=for-the-badge&logo=github&logoColor=e7e4de"/>
 </a>
 </p>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0f172a&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1613,100:0d0d0d&height=90&section=footer" width="100%"/>
 
 </div>
