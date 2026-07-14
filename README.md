@@ -18,7 +18,7 @@
 
 ## About
 
-I'm a Computer Science student at JKUAT and a full-stack developer who likes finishing what I start. I build things end to end — backend architecture, database schemas, and the frontend that sits on top of it — and I'd rather ship something a little rough than polish something that never leaves my laptop.
+I'm a Mathematics and Computer Science student at JKUAT and a full-stack developer who likes finishing what I start. I build things end to end — backend architecture, database schemas, and the frontend that sits on top of it — and I'd rather ship something a little rough than polish something that never leaves my laptop.
 
 Right now I'm part of the **Samsung Innovation Campus** program, and outside of coursework I build production-shaped side projects: a SaaS platform for a social media manager, and a student wellness platform I'm rebuilding from scratch for a health-innovation residency application.
 
@@ -102,6 +102,14 @@ Repositioning it around an admin dashboard institutions can actually pay for, pl
 <br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=donnycee-rgb&hide_border=true&background=0D0D0D&ring=D97A3F&fire=D97A3F&currStreakLabel=D97A3F&sideLabels=e7e4de&currStreakNum=e7e4de&sideNums=e7e4de&dates=8a8680"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=donnycee-rgb&hide_border=true&bg_color=0D0D0D&color=e7e4de&line=D97A3F&point=e7e4de&area=true&area_color=D97A3F" width="100%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=donnycee-rgb&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8"/>
 
 <br/><br/>
 
