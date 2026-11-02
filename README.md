@@ -68,12 +68,7 @@ How I work, as a diff:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=donnycee-rgb&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=D97A3F&icon_color=D97A3F&text_color=e7e4de&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=donnycee-rgb&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=D97A3F&text_color=e7e4de&langs_count=8"/>
-
 <img src="https://streak-stats.demolab.com/?user=donnycee-rgb&hide_border=true&background=0D0D0D&ring=D97A3F&fire=D97A3F&currStreakLabel=D97A3F&sideLabels=e7e4de&currStreakNum=e7e4de&sideNums=e7e4de&dates=8a8680" width="100%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=donnycee-rgb&hide_border=true&bg_color=0D0D0D&color=e7e4de&line=D97A3F&point=e7e4de&area=true&area_color=D97A3F" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/donnycee-rgb/donnycee-rgb/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake eating my contribution graph"/>
 
