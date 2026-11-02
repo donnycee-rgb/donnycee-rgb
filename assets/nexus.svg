@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="324" viewBox="0 0 490 324" font-family="'JetBrains Mono','SF Mono',Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="489" height="323" rx="12" fill="#0d0d0d" stroke="#2a2420"/>
+
+  <text x="24" y="34" font-size="12" fill="#8a8680">~/shipping/nexus</text>
+  <rect x="358" y="20" width="108" height="22" rx="11" fill="#1a1613" stroke="#3a2c22"/>
+  <text x="412" y="35" font-size="11" fill="#D97A3F" text-anchor="middle">client project</text>
+
+  <text x="24" y="74" font-size="28" font-weight="700" fill="#e7e4de">Nexus</text>
+  <text x="24" y="100" font-size="13" fill="#8a8680">social media management SaaS for a pro manager</text>
+
+  <g font-size="14">
+    <text x="24" y="140"><tspan fill="#6fae5a">✓</tspan><tspan fill="#e7e4de" dx="8">signed, single-use team invites</tspan></text>
+    <text x="24" y="168"><tspan fill="#6fae5a">✓</tspan><tspan fill="#e7e4de" dx="8">role + permission guard on every route</tspan></text>
+    <text x="24" y="196"><tspan fill="#6fae5a">✓</tspan><tspan fill="#e7e4de" dx="8">provider-agnostic media pipeline</tspan></text>
+    <text x="24" y="224"><tspan fill="#D97A3F">◌<animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/></tspan><tspan fill="#D97A3F" dx="8">Instagram OAuth</tspan><tspan fill="#8a8680"> — up next</tspan></text>
+  </g>
+
+  <text x="24" y="254" font-size="11" fill="#8a8680">milestones</text>
+  <text x="466" y="254" font-size="11" fill="#e7e4de" text-anchor="end">3 / 4</text>
+  <rect x="24" y="262" width="442" height="6" rx="3" fill="#1a1613"/>
+  <rect x="24" y="262" width="0" height="6" rx="3" fill="#D97A3F">
+    <animate attributeName="width" from="0" to="331" begin="0.3s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>
+  </rect>
+
+  <g font-size="11" fill="#e7e4de" text-anchor="middle">
+    <rect x="24"  y="286" width="49" height="22" rx="5" fill="#1a1613"/><text x="48.5" y="301">React</text>
+    <rect x="79"  y="286" width="82" height="22" rx="5" fill="#1a1613"/><text x="120" y="301">TypeScript</text>
+    <rect x="167" y="286" width="62" height="22" rx="5" fill="#1a1613"/><text x="198" y="301">Node.js</text>
+    <rect x="235" y="286" width="56" height="22" rx="5" fill="#1a1613"/><text x="263" y="301">Prisma</text>
+    <rect x="297" y="286" width="82" height="22" rx="5" fill="#1a1613"/><text x="338" y="301">PostgreSQL</text>
+    <rect x="385" y="286" width="49" height="22" rx="5" fill="#1a1613"/><text x="409.5" y="301">Redis</text>
+  </g>
+</svg>

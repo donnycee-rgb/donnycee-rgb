@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" font-family="'JetBrains Mono','SF Mono',Consolas,'Liberation Mono',monospace">
+  <rect x="0.5" y="0.5" width="999" height="109" rx="14" fill="#0d0d0d" stroke="#2a2420"/>
+  <text x="36" y="46" font-size="16"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> exit</tspan></text>
+  <text x="36" y="76" font-size="14" fill="#8a8680">logout · thanks for scrolling — now let's build something.</text>
+  <path d="M740 66 H800 l8 0 l5 -8 l5 8 l6 0 l5 -28 l7 44 l5 -24 l5 6 l8 0 H964" fill="none" stroke="#2a2420" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M740 66 H800 l8 0 l5 -8 l5 8 l6 0 l5 -28 l7 44 l5 -24 l5 6 l8 0 H964" fill="none" stroke="#D97A3F" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="70 400">
+    <animate attributeName="stroke-dashoffset" from="470" to="0" dur="2.6s" repeatCount="indefinite"/>
+  </path>
+</svg>

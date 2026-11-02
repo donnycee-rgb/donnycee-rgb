@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="'JetBrains Mono','SF Mono',Consolas,'Liberation Mono',monospace">
+  <defs>
+    <clipPath id="t1"><rect x="36" y="60" height="34" width="0"><animate attributeName="width" from="0" to="200" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="36" y="180" height="34" width="0"><animate attributeName="width" from="0" to="260" begin="2.1s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="36" y="256" height="34" width="0"><animate attributeName="width" from="0" to="300" begin="3.5s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#D97A3F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D97A3F"/>
+      <stop offset="1" stop-color="#f2b37f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="999" height="439" rx="14" fill="#0d0d0d" stroke="#2a2420"/>
+  <path d="M0.5 40 V14.5 A14 14 0 0 1 14.5 0.5 H985.5 A14 14 0 0 1 999.5 14.5 V40 Z" fill="#1a1613"/>
+  <line x1="0.5" y1="40" x2="999.5" y2="40" stroke="#2a2420"/>
+  <circle cx="24" cy="20" r="6" fill="#e0675a"/>
+  <circle cx="44" cy="20" r="6" fill="#e3b04b"/>
+  <circle cx="64" cy="20" r="6" fill="#6fae5a"/>
+  <text x="500" y="25" text-anchor="middle" font-size="13" fill="#8a8680">dennis@jkuat: ~</text>
+
+  <g font-size="18">
+    <!-- $ whoami -->
+    <text x="36" y="84" clip-path="url(#t1)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> whoami</tspan></text>
+
+    <text x="36" y="130" font-size="36" font-weight="700" fill="#e7e4de" opacity="0">Dennis Cira<animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/></text>
+    <text x="36" y="160" font-size="16" fill="#8a8680" opacity="0">full-stack developer · maths &amp; cs @ JKUAT · Samsung Innovation Campus<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- $ cat status -->
+    <text x="36" y="204" clip-path="url(#t2)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> cat status.txt</tspan></text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.4s" fill="freeze"/>
+      <circle cx="44" cy="230" r="6" fill="#D97A3F">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="60" y="236" fill="#e7e4de">open for gigs, contract work &amp; collaborations</text>
+    </g>
+
+    <!-- $ ls ~/shipping -->
+    <text x="36" y="280" clip-path="url(#t3)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> ls ~/shipping</tspan></text>
+    <text x="36" y="312" opacity="0" font-weight="700"><tspan fill="#D97A3F">nexus/</tspan><tspan fill="#e7e4de">    livorapulse/</tspan><tspan fill="#8a8680" font-weight="400">    # scroll down ↓</tspan><animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- idle prompt -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.1s" fill="freeze"/>
+      <text x="36" y="356" fill="#D97A3F">$</text>
+      <rect x="56" y="340" width="11" height="20" fill="#e7e4de">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- pulse line -->
+  <line x1="36" y1="384" x2="964" y2="384" stroke="#1f1a16"/>
+  <path d="M36 412 H240 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H500 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H690" fill="none" stroke="#2a2420" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M36 412 H240 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H500 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H690" fill="none" stroke="url(#glow)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="110 1100">
+    <animate attributeName="stroke-dashoffset" from="1210" to="0" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+  <text x="964" y="417" text-anchor="end" font-size="13" fill="#8a8680">uptime: <tspan fill="#D97A3F">coffee + stubbornness</tspan></text>
+</svg>
