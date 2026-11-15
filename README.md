@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://unrivaled-pony-e15d4c.netlify.app/">
-  <img src="assets/hero.svg" width="100%" alt="$ whoami — Dennis Cira, full-stack developer · maths & cs @ JKUAT · Samsung Innovation Campus. Open for gigs, contract work & collaborations."/>
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/">
+  <img src="assets/hero.svg" width="100%" alt="$ whoami — Dennis Cira Mwendia, full-stack developer and AI training specialist in Nairobi. React, TypeScript, Node.js, PostgreSQL. Open to freelance and contract work."/>
 </a>
 
 </div>
@@ -10,7 +10,9 @@
 
 ### `01` &nbsp; the short version
 
-Maths & Computer Science student at **JKUAT**, currently in the **Samsung Innovation Campus** program. I build things end to end — backend architecture, database schemas, and the frontend that sits on top — and I like finishing what I start.
+Full-stack developer in **Nairobi** who builds and ships web apps with **React, TypeScript, Node.js and PostgreSQL** — from the first design to a live deployment, for clients and real users. I also work in **AI training**: rating and reviewing AI outputs for accuracy and safety, and designing tasks for AI agents.
+
+Studying **Mathematics & Computer Science at JKUAT**. Native Kiswahili speaker, fluent in English, getting there in French.
 
 How I work, as a diff:
 
@@ -23,21 +25,37 @@ How I work, as a diff:
 
 <br/>
 
-### `02` &nbsp; currently shipping
+### `02` &nbsp; shipped
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/donnycee-rgb/nexus"><img src="assets/nexus.svg" width="100%" alt="Nexus — social media management SaaS"/></a>
-<p align="center">
-<a href="https://github.com/donnycee-rgb/nexus">frontend</a> · <a href="https://github.com/donnycee-rgb/nexusbackend">backend</a>
-</p>
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/av-productions"><img src="assets/av-productions.svg" width="100%" alt="AV Productions — a cinematic website for a film and sound studio"/></a>
+<p align="center"><a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/av-productions">case study</a> · <a href="https://github.com/donnycee-rgb/av-web">code</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/donnycee-rgb/livorapulse"><img src="assets/livorapulse.svg" width="100%" alt="LivoraPulse — burnout intelligence for Kenyan university students"/></a>
-<p align="center">
-<a href="https://github.com/donnycee-rgb/livorapulse">frontend</a> · <a href="https://github.com/donnycee-rgb/livorapulse_backend">backend</a>
-</p>
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/livorapulse"><img src="assets/livorapulse.svg" width="100%" alt="LivoraPulse — a free wellness tracker built for Kenya and Africa"/></a>
+<p align="center"><a href="https://livorapulse.netlify.app">live</a> · <a href="https://github.com/donnycee-rgb/livorapulse">frontend</a> · <a href="https://github.com/donnycee-rgb/livorapulse_backend">backend</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/nexus"><img src="assets/nexus.svg" width="100%" alt="Nexus — social media management SaaS for a client"/></a>
+<p align="center"><a href="https://nexus-omega-khaki-33.vercel.app">demo</a> · <a href="https://github.com/donnycee-rgb/nexus">frontend</a> · <a href="https://github.com/donnycee-rgb/nexusbackend">backend</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/jkuat-french-club"><img src="assets/jkuat-french-club.svg" width="100%" alt="JKUAT French Club — the leadership elections application portal"/></a>
+<p align="center"><a href="https://jkuat-french-club-elections.netlify.app">live</a> · <a href="https://github.com/donnycee-rgb/jkuatelectionsportal">code</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/payvora"><img src="assets/payvora.svg" width="100%" alt="PAYVORA — a payments prototype built on M-Pesa"/></a>
+<p align="center"><a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work/payvora">case study</a></p>
+</td>
+<td width="50%" valign="middle" align="center">
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/work"><b>see every project →</b></a><br/>
+<sub>screens, stacks and the story behind each one</sub>
 </td>
 </tr>
 </table>
@@ -46,9 +64,15 @@ How I work, as a diff:
 <summary><b>more on each →</b></summary>
 <br/>
 
-**Nexus** is built for a client who manages social accounts professionally. I built the workspace and team system from the ground up: invite links that are cryptographically signed and single-use, role and permission middleware guarding every route, and a media upload pipeline with a storage adapter that isn't locked to one provider. Instagram OAuth is next.
+**AV Productions** — the old site was wordy and hard to navigate, so I restructured it into one that tells the whole story as you scroll, with a cinematic identity built around film and sound: hand-drawn SVG animations, a line-art Nairobi skyline that turns into a soundwave, and a fill-in-the-script booking form. A Node.js + PostgreSQL back end runs the owner's admin and booking emails.
 
-**LivoraPulse** started as a general wellness platform and is being rebuilt into a burnout-intelligence system for Kenyan university students — repositioned around an admin dashboard institutions can actually pay for, plus a peer-accountability feature called **Wellness Circles**. I'm building toward an application to **AfyaVentures 2026**, AMREF's health-innovation residency.
+**LivoraPulse** brings six areas of wellbeing — physical activity, nutrition, screen time, focus, mood and eco habits — into one daily **LifePulse Score**, and shows people patterns in their own data they can act on ("on days you sleep 7+ hours, your mood is higher"). I designed and built it end to end and run it in production — including the unglamorous part: failing migrations, missing build files and server cold starts.
+
+**Nexus** is built for a client who manages social accounts professionally: workspaces and teams, invite links that are cryptographically signed and single-use, role and permission checks on every route (plus a `usePermission()` hook that hides what a user can't do), and a media upload pipeline that can switch storage providers without code changes.
+
+**JKUAT French Club** needed its executive elections online: members read about each position and the process, then apply — with Google Sheets as the back end, so the club runs it without a database. 20 applicants went through it.
+
+**PAYVORA** wires Safaricom's M-Pesa STK Push (Daraja API) end to end in the sandbox: the payment request goes to the customer's phone, and the callback confirms the result.
 
 </details>
 
@@ -58,17 +82,34 @@ How I work, as a diff:
 
 | | |
 |:--|:--|
-| **frontend** | <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs&theme=dark" height="40"/> |
-| **backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,py,fastapi&theme=dark" height="40"/> |
-| **data & tools** | <img src="https://skillicons.dev/icons?i=postgres,prisma,redis,docker,git&theme=dark" height="40"/> |
+| **frontend** | <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=react,ts,js,html,css,tailwind,vite" height="40"/> |
+| **backend** | <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=nodejs,express,prisma,fastapi,spring" height="40"/> &nbsp;<sub>+ Fastify · BullMQ · REST APIs</sub> |
+| **data & hosting** | <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=postgres,redis,supabase,mysql,vercel,netlify,cloudflare,git,github" height="40"/> &nbsp;<sub>+ Railway · Render</sub> |
+| **also** | <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=py,java,vitest" height="40"/> &nbsp;<sub>+ SQL · AI output evaluation · data annotation</sub> |
+| **speaks** | Kiswahili <sub>(native)</sub> · English <sub>(fluent)</sub> · French <sub>(intermediate)</sub> |
 
 <br/>
 
-### `04` &nbsp; commit log
+### `04` &nbsp; the log so far
+
+```console
+$ git log --reverse --format="%as  %s"
+2025-xx  LivoraPulse — designed, built, shipped, still running
+2026-05  freelance full-stack developer — Nexus (client)
+2026-xx  JKUAT French Club — elections portal, 20 applicants
+2026-08  AI training contractor — remote
+2026-09  web developer — AV Productions (client)
+   done  Samsung Innovation Campus — programme completed ✓
+    now  BSc Mathematics & Computer Science — JKUAT
+```
+
+<br/>
+
+### `05` &nbsp; commit log
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=donnycee-rgb&hide_border=true&background=0D0D0D&ring=D97A3F&fire=D97A3F&currStreakLabel=D97A3F&sideLabels=e7e4de&currStreakNum=e7e4de&sideNums=e7e4de&dates=8a8680" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=donnycee-rgb&hide_border=true&background=0F0F11&ring=C8CCD2&fire=E8EAED&currStreakLabel=C8CCD2&sideLabels=EEF0F2&currStreakNum=EEF0F2&sideNums=EEF0F2&dates=8F949C&stroke=2C2D31" width="100%" alt="contribution streak"/>
 
 <img src="https://raw.githubusercontent.com/donnycee-rgb/donnycee-rgb/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake eating my contribution graph"/>
 
@@ -76,14 +117,15 @@ How I work, as a diff:
 
 <br/>
 
-### `05` &nbsp; say hi
+### `06` &nbsp; say hi
 
-Taking on freelance and contract work now, and open to full-time roles once I'm done with school.
+Taking on freelance and contract work now — websites, web apps and fixes for ones that are stuck — and open to full-time roles once I'm done with school.
 
 <p>
-<a href="https://www.linkedin.com/in/dennis-mwendia-90b28331a/"><img src="https://img.shields.io/badge/linkedin-1a1613?style=for-the-badge&logo=linkedin&logoColor=D97A3F"/></a>
-<a href="mailto:dmwendia30@gmail.com"><img src="https://img.shields.io/badge/email-1a1613?style=for-the-badge&logo=gmail&logoColor=D97A3F"/></a>
-<a href="https://unrivaled-pony-e15d4c.netlify.app/"><img src="https://img.shields.io/badge/portfolio-1a1613?style=for-the-badge&logo=netlify&logoColor=D97A3F"/></a>
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/"><img src="https://img.shields.io/badge/portfolio-141416?style=for-the-badge&logo=vercel&logoColor=C8CCD2" alt="portfolio"/></a>
+<a href="https://portfolio-xi-eight-dpx6txtrm7.vercel.app/contact"><img src="https://img.shields.io/badge/hire%20me-141416?style=for-the-badge&logo=minutemailer&logoColor=C8CCD2" alt="hire me"/></a>
+<a href="https://www.linkedin.com/in/dennis-mwendia-90b28331a/"><img src="https://img.shields.io/badge/linkedin-141416?style=for-the-badge&logo=linkedin&logoColor=C8CCD2" alt="linkedin"/></a>
+<a href="mailto:dmwendia30@gmail.com"><img src="https://img.shields.io/badge/email-141416?style=for-the-badge&logo=gmail&logoColor=C8CCD2" alt="email"/></a>
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="$ exit — logout · thanks for scrolling"/>
+<img src="assets/footer.svg" width="100%" alt="$ exit — logout · thanks for scrolling, now let's build something"/>

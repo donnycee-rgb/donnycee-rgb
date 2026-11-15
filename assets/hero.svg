@@ -1,60 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="'JetBrains Mono','SF Mono',Consolas,'Liberation Mono',monospace">
+  <!-- Profile hero: a terminal in brushed black and silver, with the DC monogram. Lines type themselves in (SMIL, works on GitHub). -->
   <defs>
-    <clipPath id="t1"><rect x="36" y="60" height="34" width="0"><animate attributeName="width" from="0" to="200" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
-    <clipPath id="t2"><rect x="36" y="180" height="34" width="0"><animate attributeName="width" from="0" to="260" begin="2.1s" dur="0.6s" fill="freeze"/></rect></clipPath>
-    <clipPath id="t3"><rect x="36" y="256" height="34" width="0"><animate attributeName="width" from="0" to="300" begin="3.5s" dur="0.6s" fill="freeze"/></rect></clipPath>
-    <linearGradient id="glow" x1="0" x2="1">
-      <stop offset="0" stop-color="#D97A3F" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#D97A3F"/>
-      <stop offset="1" stop-color="#f2b37f"/>
+    <!-- Each command line is revealed left to right, one after another -->
+    <clipPath id="c1"><rect x="390" y="78" height="30" width="0"><animate attributeName="width" from="0" to="160" begin="0.5s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="390" y="190" height="30" width="0"><animate attributeName="width" from="0" to="240" begin="2.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="390" y="276" height="30" width="0"><animate attributeName="width" from="0" to="300" begin="4.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+
+    <radialGradient id="bg" cx="0.68" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#232427"/>
+      <stop offset="0.6" stop-color="#121214"/>
+      <stop offset="1" stop-color="#08080a"/>
+    </radialGradient>
+    <pattern id="brush" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#ffffff" stroke-opacity="0.03" stroke-width="2.2"/>
+    </pattern>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#f4f5f7"/>
+      <stop offset="0.45" stop-color="#a9aeb6"/>
+      <stop offset="0.7" stop-color="#dfe2e6"/>
+      <stop offset="1" stop-color="#8f949c"/>
     </linearGradient>
+    <!-- A glint that sweeps across the monogram once -->
+    <linearGradient id="glint" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gap" maskUnits="userSpaceOnUse">
+      <rect width="260" height="220" fill="white"/>
+      <path d="M187 78.7 A72 72 0 1 0 187 161.3 L183.5 153.3 A58 58 0 1 1 183.5 86.7 Z" fill="black" stroke="black" stroke-width="9"/>
+    </mask>
+    <clipPath id="dc"><path d="M20 14 H92 C138 14 160 46 160 84 C160 122 138 154 92 154 H20 V146 H34 V22 H20 Z M52 22 H90 C124 22 142 48 142 84 C142 120 124 146 90 146 H52 Z M187 78.7 A72 72 0 1 0 187 161.3 L183.5 153.3 A58 58 0 1 1 183.5 86.7 Z"/></clipPath>
   </defs>
 
   <!-- window -->
-  <rect x="0.5" y="0.5" width="999" height="439" rx="14" fill="#0d0d0d" stroke="#2a2420"/>
-  <path d="M0.5 40 V14.5 A14 14 0 0 1 14.5 0.5 H985.5 A14 14 0 0 1 999.5 14.5 V40 Z" fill="#1a1613"/>
-  <line x1="0.5" y1="40" x2="999.5" y2="40" stroke="#2a2420"/>
-  <circle cx="24" cy="20" r="6" fill="#e0675a"/>
-  <circle cx="44" cy="20" r="6" fill="#e3b04b"/>
-  <circle cx="64" cy="20" r="6" fill="#6fae5a"/>
-  <text x="500" y="25" text-anchor="middle" font-size="13" fill="#8a8680">dennis@jkuat: ~</text>
+  <rect x="0.5" y="0.5" width="999" height="439" rx="14" fill="url(#bg)" stroke="#2c2d31"/>
+  <rect x="0.5" y="0.5" width="999" height="439" rx="14" fill="url(#brush)"/>
+  <path d="M0.5 40 V14.5 A14 14 0 0 1 14.5 0.5 H985.5 A14 14 0 0 1 999.5 14.5 V40 Z" fill="#17181b"/>
+  <line x1="0.5" y1="40" x2="999.5" y2="40" stroke="#2c2d31"/>
+  <circle cx="24" cy="20" r="6" fill="#3a3c41"/>
+  <circle cx="44" cy="20" r="6" fill="#3a3c41"/>
+  <circle cx="64" cy="20" r="6" fill="#c8ccd2"/>
+  <text x="500" y="25" text-anchor="middle" font-size="13" fill="#8f949c">dennis@nairobi: ~/portfolio</text>
 
-  <g font-size="18">
-    <!-- $ whoami -->
-    <text x="36" y="84" clip-path="url(#t1)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> whoami</tspan></text>
-
-    <text x="36" y="130" font-size="36" font-weight="700" fill="#e7e4de" opacity="0">Dennis Cira<animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/></text>
-    <text x="36" y="160" font-size="16" fill="#8a8680" opacity="0">full-stack developer · maths &amp; cs @ JKUAT · Samsung Innovation Campus<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.4s" fill="freeze"/></text>
-
-    <!-- $ cat status -->
-    <text x="36" y="204" clip-path="url(#t2)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> cat status.txt</tspan></text>
+  <!-- DC monogram, fading in, with one glint across it -->
+  <g transform="translate(46 108) scale(1.32)">
     <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.4s" fill="freeze"/>
-      <circle cx="44" cy="230" r="6" fill="#D97A3F">
-        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="2.9s" repeatCount="indefinite"/>
-      </circle>
-      <text x="60" y="236" fill="#e7e4de">open for gigs, contract work &amp; collaborations</text>
+      <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.9s" fill="freeze"/>
+      <g fill="url(#metal)">
+        <path fill-rule="evenodd" mask="url(#gap)" d="M20 14 H92 C138 14 160 46 160 84 C160 122 138 154 92 154 H20 V146 H34 V22 H20 Z M52 22 H90 C124 22 142 48 142 84 C142 120 124 146 90 146 H52 Z"/>
+        <path d="M187 78.7 A72 72 0 1 0 187 161.3 L183.5 153.3 A58 58 0 1 1 183.5 86.7 Z"/>
+      </g>
+      <path d="M196 110 L209 119 L196 128 M213 131 H232" fill="none" stroke="url(#metal)" stroke-width="5" stroke-linecap="square"/>
     </g>
-
-    <!-- $ ls ~/shipping -->
-    <text x="36" y="280" clip-path="url(#t3)"><tspan fill="#D97A3F">$</tspan><tspan fill="#e7e4de"> ls ~/shipping</tspan></text>
-    <text x="36" y="312" opacity="0" font-weight="700"><tspan fill="#D97A3F">nexus/</tspan><tspan fill="#e7e4de">    livorapulse/</tspan><tspan fill="#8a8680" font-weight="400">    # scroll down ↓</tspan><animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.4s" fill="freeze"/></text>
-
-    <!-- idle prompt -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.1s" fill="freeze"/>
-      <text x="36" y="356" fill="#D97A3F">$</text>
-      <rect x="56" y="340" width="11" height="20" fill="#e7e4de">
-        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    <g clip-path="url(#dc)">
+      <rect x="-80" y="0" width="60" height="200" fill="url(#glint)" transform="skewX(-20)">
+        <animate attributeName="x" from="-80" to="300" begin="1.2s" dur="1.4s" fill="freeze"/>
       </rect>
     </g>
   </g>
 
-  <!-- pulse line -->
-  <line x1="36" y1="384" x2="964" y2="384" stroke="#1f1a16"/>
-  <path d="M36 412 H240 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H500 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H690" fill="none" stroke="#2a2420" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M36 412 H240 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H500 l12 0 l6 -10 l6 10 l8 0 l6 -34 l8 56 l6 -30 l6 8 l10 0 H690" fill="none" stroke="url(#glow)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="110 1100">
-    <animate attributeName="stroke-dashoffset" from="1210" to="0" dur="3.2s" repeatCount="indefinite"/>
-  </path>
-  <text x="964" y="417" text-anchor="end" font-size="13" fill="#8a8680">uptime: <tspan fill="#D97A3F">coffee + stubbornness</tspan></text>
+  <g font-size="18">
+    <!-- $ whoami -->
+    <text x="390" y="100" clip-path="url(#c1)"><tspan fill="#c8ccd2">$</tspan><tspan fill="#eef0f2"> whoami</tspan></text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.5s" fill="freeze"/>
+      <text x="390" y="142" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#eef0f2">Dennis Cira Mwendia</text>
+      <text x="390" y="170" font-size="14" letter-spacing="1.5" fill="#a9aeb6">FULL-STACK DEVELOPER · AI TRAINING SPECIALIST</text>
+    </g>
+
+    <!-- $ cat stack.txt -->
+    <text x="390" y="212" clip-path="url(#c2)"><tspan fill="#c8ccd2">$</tspan><tspan fill="#eef0f2"> cat stack.txt</tspan></text>
+    <text x="390" y="246" font-size="15" fill="#c8ccd2" opacity="0">React · TypeScript · Node.js · PostgreSQL
+      <animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.5s" fill="freeze"/>
+    </text>
+
+    <!-- $ open portfolio -->
+    <text x="390" y="298" clip-path="url(#c3)"><tspan fill="#c8ccd2">$</tspan><tspan fill="#eef0f2"> open portfolio</tspan></text>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.5s" fill="freeze"/>
+      <text x="390" y="332" font-size="15" fill="#eef0f2">→ <tspan text-decoration="underline">portfolio-xi-eight-dpx6txtrm7.vercel.app</tspan></text>
+      <text x="390" y="358" font-size="13" fill="#8f949c">Nairobi, Kenya · open to freelance &amp; contract work</text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="390" y="378" width="10" height="20" fill="#c8ccd2" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.01;0.02;0.5;0.51" dur="1.1s" begin="5.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
